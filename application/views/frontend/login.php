@@ -25,12 +25,12 @@
         ?>
 
         <div class="form-group">
-            <label for="usuario">Usuario</label>
+            <label for="usuario">Usuario [admin]</label>
             <input required class="form-control" type="text" name="usuario" value="<?=$usuario?>" />
         </div>
         
         <div class="form-group">
-            <label for="senha">Senha</label>
+            <label for="senha">Senha [1234]</label>
             <input required class="form-control" type="password" name="senha">
         </div>
         
