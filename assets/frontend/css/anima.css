@@ -1,0 +1,41 @@
+
+@keyframes anima-msg{
+
+	0%{
+		opacity: 0;
+		top: 0px;
+	}
+	15%{
+		opacity: 1;
+		top: 50px;
+	}
+	85%{
+		opacity: 1;
+		top: 50px;
+	}
+	100%{
+		opacity: 0;
+		top: 0px;
+	}
+
+}
+
+@keyframes anima-home {
+    from {
+    	opacity: 0;
+    	padding-top: 100px; 
+    }
+    to {
+    	opacity: 1;
+    	padding-top: 200px: 
+    }
+}
+
+@keyframes anima-pagina {
+    from {
+    	opacity: 0;
+    }
+    to {
+    	opacity: 1;
+    }
+}

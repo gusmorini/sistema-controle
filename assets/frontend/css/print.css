@@ -1,0 +1,20 @@
+@media print
+{
+
+	*, .container, .jumbotron
+    {
+		margin:0;
+		padding: 0;
+	}
+	.container
+    {
+		margin-top: -100px;
+		width: 21cm;
+	}
+
+	form, button, a, header, .btn, .breadcrumb, .msg, .no-print
+    {
+		display: none !important;
+	}
+
+}
